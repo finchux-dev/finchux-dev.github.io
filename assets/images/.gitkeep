@@ -1,0 +1,10 @@
+# Assets directory
+# CareKeeper logo and screenshot assets will be placed here
+# 
+# Expected files:
+# - logo-with-text.png (CareKeeper logo with text)
+# - logo-icon.png (CareKeeper icon only) 
+# - screenshot-voice-recording.png (voice recording interface)
+# - screenshot-settings.png (settings/security screen)
+# - screenshot-notes.png (main notes screen)
+# - screenshot-medications.png (medications screen) 
