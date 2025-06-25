@@ -7,45 +7,66 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <a href="index.html" class="logo-link">
-      <img src="assets/images/logo-with-text.png" alt="CareKeeper Logo" class="logo">
-    </a>
+  <!-- Header (copied from index.html) -->
+  <header class="header" role="banner">
+    <nav class="nav-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="./assets/images/logo-with-text.png" alt="CareKeeper - Secure Medical Notes" class="logo-image">
+        </a>
+      </div>
+      <div class="nav-actions">
+        <a href="#contact" class="cta-button" aria-label="Get early access to CareKeeper">Get Early Access</a>
+      </div>
+    </nav>
   </header>
-  <main class="privacy-main">
-    <section class="privacy-policy-section">
-      <h1>Privacy Policy</h1>
-      <p>CareKeeper is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application.</p>
-      <h2>Information Collection</h2>
-      <ul>
-        <li>We do <strong>not</strong> collect or store any personal health information on our servers.</li>
-        <li>All medical notes, reminders, and recordings are stored <strong>locally</strong> on your device.</li>
-        <li>We do not require you to create an account or provide personal details to use the app.</li>
-      </ul>
-      <h2>Permissions</h2>
-      <ul>
-        <li>The app may request access to your device's microphone for voice notes and notifications for reminders. These permissions are used solely for app functionality and are never shared.</li>
-      </ul>
-      <h2>Data Security</h2>
-      <ul>
-        <li>Your data never leaves your device unless you choose to export it.</li>
-        <li>We use industry-standard encryption to protect your information within the app.</li>
-      </ul>
-      <h2>Third-Party Services</h2>
-      <ul>
-        <li>CareKeeper does not use third-party analytics or advertising services.</li>
-      </ul>
-      <h2>Contact Us</h2>
-      <p>If you have any questions about this Privacy Policy, please contact us via the form on our website.</p>
-      <h2>Changes to This Policy</h2>
-      <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page.</p>
-      <p>Last updated: June 2024</p>
-    </section>
+  <main role="main">
+    <div class="container">
+      <section class="privacy-policy-section">
+        <h1>Privacy Policy</h1>
+        <p>CareKeeper is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application.</p>
+        <h2>Information Collection</h2>
+        <ul>
+          <li>We do <strong>not</strong> collect or store any personal health information on our servers.</li>
+          <li>All medical notes, reminders, and recordings are stored <strong>locally</strong> on your device.</li>
+          <li>We do not require you to create an account or provide personal details to use the app.</li>
+        </ul>
+        <h2>Permissions</h2>
+        <ul>
+          <li>The app may request access to your device's microphone for voice notes and notifications for reminders. These permissions are used solely for app functionality and are never shared.</li>
+        </ul>
+        <h2>Data Security</h2>
+        <ul>
+          <li>Your data never leaves your device unless you choose to export it.</li>
+          <li>We use industry-standard encryption to protect your information within the app.</li>
+        </ul>
+        <h2>Third-Party Services</h2>
+        <ul>
+          <li>CareKeeper does not use third-party analytics or advertising services.</li>
+        </ul>
+        <h2>Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us via the form on our website.</p>
+        <h2>Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page.</p>
+        <p>Last updated: June 2024</p>
+      </section>
+    </div>
   </main>
-  <footer class="site-footer">
-    <div class="footer-content">
-      <span>&copy; 2024 CareKeeper</span>
-      <a href="privacy.html" class="footer-link">Privacy Policy</a>
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="./assets/images/logo-with-text.png" alt="CareKeeper" class="footer-logo-image">
+        </div>
+        <div class="footer-links">
+          <a href="https://forms.gle/eiu7RFUogStKsc457" target="_blank" rel="noopener">Contact</a>
+          <a href="privacy.html" class="footer-link">Privacy Policy</a>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2024 CareKeeper. All rights reserved.</p>
+        </div>
+      </div>
     </div>
   </footer>
 </body>
