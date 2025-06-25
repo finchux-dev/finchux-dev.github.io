@@ -928,18 +928,21 @@ img.loaded {
 
 /* Privacy Policy Page Styles */
 .privacy-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 70vh;
-  padding: 2rem 1rem 3rem 1rem;
-  background: #f8fafc;
+  /* No longer used */
+  display: unset;
+  flex-direction: unset;
+  align-items: unset;
+  min-height: unset;
+  padding: unset;
+  background: unset;
 }
+
+/* Refine privacy-policy-section for minor adjustments only */
 .privacy-policy-section {
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 2px 16px rgba(0,0,0,0.06);
-  max-width: 600px;
+  max-width: 100%;
   width: 100%;
   padding: 2.5rem 2rem;
   margin: 2rem 0;
