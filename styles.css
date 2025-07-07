@@ -295,6 +295,49 @@ img {
   box-shadow: var(--shadow-xl);
 }
 
+/* App Store Badge Styles */
+.app-store-badge {
+  height: 44px;
+  width: auto;
+  transition: all var(--transition-fast);
+}
+
+.app-store-badge:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+.app-store-badge-large {
+  height: 56px;
+  width: auto;
+  transition: all var(--transition-fast);
+}
+
+.app-store-badge-large:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+@media (min-width: 768px) {
+  .app-store-badge {
+    height: 48px;
+  }
+  
+  .app-store-badge-large {
+    height: 64px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .app-store-badge {
+    height: 52px;
+  }
+  
+  .app-store-badge-large {
+    height: 72px;
+  }
+}
+
 /* Hero Section */
 .hero-section {
   position: relative;
